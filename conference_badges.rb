@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+<<<<<<< HEAD
   list = []
   list_size = attendees.size
   list_position = 0
@@ -29,4 +30,8 @@ end
 def printer(attendees)
 batch_badge_creator(attendees).each { |x| puts x }
 assign_rooms(attendees).each { |x| puts x }
+=======
+  attendees.each do badge_maker(attendees)
+  end
+>>>>>>> 5ffcd7b976c4d3bd84f4d693d534028a3728766e
 end
